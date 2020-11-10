@@ -1,0 +1,430 @@
+<!Doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>greece_travel</title>
+</head>
+<style>
+body
+{
+background-color:white;
+margin:0px;
+height:2800px;
+width:1470px;
+
+}
+html {
+    overflow-y:scroll;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #9e9e9e21;
+}
+
+#more {display: none;}
+#more1 {display: none;}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+.container .btn_SK {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color:#e7f7ff;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: unset;
+  border: 1px solid gold;
+  
+  
+  
+}
+
+.container .btn_SK:hover {
+  background-color: black;
+}
+.container .content {
+    position: absolute;
+    bottom: 0px;
+    left: 700px;
+    background: rgba(30, 32, 33, 0.54);
+    color: #f1f1f1;
+    width: 770px;
+    height: 550px;
+}
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: auto%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+p a{font-size:18px;font-family:auto;text-decoration:none;padding-left: 15px;color:#d64c20fc;}
+p.a:hover {
+  background-color: red;
+}
+
+
+</style>
+<body>
+
+<header style=" width:1470px;height:110px;background-color:white">
+<!--logo-->
+<div>
+<div style="width:450px;height:110px;float:left;background-color:white;" ><a href="https://www.lonelyplanet.com/greece">
+<img style="padding-top:25px" src="greece_logo.jpg" alt="W3Schools.com" width="280px" height="80px"></a>
+</div>
+<!--navigation bar-->
+<div style="width: 1020px;height:110px;float:left; background-color:white;">
+
+<ul  style="padding-top: 30px; padding-left:360px;">
+  <li><a  href="#home">HOME</a></li>
+  <li><a href="C:/Users/ash/Videos/office_13_02_20_templ/destination.html">DESTINATION</a></li>
+  <li><a href="#blog">BLOG</a></li> 
+  <li><a href="#contact">CONTACT</a></li> 
+  <button style="margin-top:7px;padding-left: 35px;padding-right: 35px;padding-bottom: 3px;padding-top:5px;background-color:#2441e2;border-radius: 8px;"><a href="#about" style="text-decoration:none;color: white;font-size: 15px;">BOOK NOW</a></button>
+</ul>
+
+</div></div></header>
+
+<!-- beloww header blue image--->
+
+<div style="height:760px;width:1470px;background:url('https://images.unsplash.com/photo-1535919020263-f79f5313f336?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  float:left">
+<p style="padding-top:199px;padding-left:156px;
+    font-size:18px;
+    font-family: sans-serif;text-decoration:none;color: white;">BEST OFFER
+	<br><p style="padding-left: 156px;font-size: 65px;font-family: sans-serif;text-decoration:none;margin: auto;
+    color: cyan;">25% OFF</p><br>
+	<p style="padding-left: 156px;font-size:30px;font-family: sans-serif;text-decoration:none;margin: auto;
+    color:white">SANTORINI CITY TOUR<p/>
+	<p style="padding-left: 156px;font-size:13px;font-family: sans-serif;text-decoration:none;margin:1px;
+    color: white;">Greece is one of those countries that you’ll never get bored <br>of visiting. With thousands of little islands and the gorgeous  mainland, it’s <br> a place that just gets better with every<span id="dots">...</span><span id="more"> trip.If you are planning to visit Greece, there <br>are two things that you should definitely bring with you: <br>a high-quality digital camera to capture<br> breathtaking sceneries and a high-capacity memory <br>card to store as many pictures as you can!</span></p><br>
+	<button style="margin-left: 156px;background-color: #2441e2;padding:10px;text-decoration:none;border-radius: 3px;color: white;background: unset;}" onclick="myFunction()" id="myBtn">See More</button>
+	</p>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+<p style="margin-top:160px"><center><a style="text-decoration:none;color:darkblue"href="#">Scroll down <br><i style="border: solid blue;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;" class="down"></i></a><center></p>
+
+</div>
+
+
+
+
+<!--reservation area ---//incomplete-->
+
+<div style="height:150px;width:1470px;background-color:GhostWhite;float:left">
+
+<p><center style="padding-top:10px; font-size: 21px;color: gray;">MAKE A RESERVATION<center></p>
+<br>
+<div style="margin-left:30px">
+<div style="height:100px;width:250px;float:left"><select style="background-color:#6f6e6e2e; width:200px;height:30px">
+  <option value="volvo">SELECT DESTINATION</option>
+  <option value="saab">Greece</option>
+  <option value="opel">Creete</option>
+  <option value="audi">Mykongs</option>
+   <option value="audi">Kastoria</option>
+</select></div>
+<div style="height:100px;width:250px;float:left"><select style="background-color:#6f6e6e2e; width:200px;height:30px">
+  <option value="volvo">From</option>
+  <option value="saab">Greece</option>
+  <option value="opel">Creete</option>
+  <option value="audi">Mykongs</option>
+   <option value="audi">Kastoria</option>
+</select></div>
+<div style="height:100px;width:250px;float:left"><select style="background-color:#6f6e6e2e; width:200px;height:30px">
+  <option value="volvo">To</option>
+  <option value="saab">Greece</option>
+  <option value="opel">Creete</option>
+  <option value="audi">Mykongs</option>
+   <option value="audi">Kastoria</option>
+</select></div>
+<div style="height:100px;width:250px;float:left"><select style="background-color:#6f6e6e2e; width:200px;height:30px">
+  <option value="volvo">Guests</option>
+  <option value="saab">1</option>
+  <option value="opel">2</option>
+  <option value="audi">3</option>
+   <option value="audi">4+</option>
+</select></div>
+<div style="height:100px;width:250px;float:left"><select style="background-color:#2170f3e0; width:200px;height:30px">
+  <option value="volvo">Check Availability</option>
+  <option value="saab">Availabile</option>
+  <option value="opel">OOps! Sorry</option>
+</select></div>
+
+</div>
+</div>
+
+<!--about us part--->
+
+<div style="height:540px;width:1470px;float:left;background:white">
+<div style="margin-top:70px;margin-left:250px;height:370px;width:320px;float:left;    background: #9e9e9e24;">
+<img style=" display: block;
+  margin-left:10px;margin-top:10px"src="https://i.pinimg.com/originals/25/73/d0/2573d01aeb3d27cdba418fb9265ea8a4.jpg" alt="Flowers in Chania" width="300px" height="350px">
+</div>
+<!--about us description-->
+
+<div style="margin-left:20px;margin-top:90px;height:500px;width:650px;background-color: white;float:left;padding-left: 10px;font-size: 25px;text-decoration: none;color:#ffb13bde;">
+<p><b>ABOUT US</b><br>
+<p style="font-size: initial;color: gray;">Hedonists rejoice! Greece is ancient <br> sun-bleached ruins piercing blue skies, the balmy <br>Aegean lapping an endless<br> coastline and a culture alive with <br>passionate music, wonderful cuisine <br>and thrill-seeking activities.Greece is not <br>only a beautiful destination with<br> its ocean landscapes, distinct architecture,<br> and delectable food, it’s also incredibly affordable.You can<br> travel around Greece <span id="dots_1">.....</span><span id="more_1">for a fraction of the price<br> you can other countries in Europe.<br>It’s warm; cheap; <br>has delicious food; rugged, windswept but relaxing islands;<br> and lively and friendly locals.
+</p></span>
+	<button style="margin-left: 156px;background-color: #2441e2;padding:10px;text-decoration:none;border-radius: 3px;color: white
+	;background: blue;" onclick="myFunction_1()" id="myBtn_1">See More</button>
+	</p>
+<script>
+function myFunction_1() {
+  var dots = document.getElementById("dots_1");
+  var moreText = document.getElementById("more_1");
+  var btnText = document.getElementById("myBtn_1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+</p></div>
+</div>
+<!--- top destination--->
+
+
+<div style="height:1200px;width:1470px;background-color:white;float:left">
+
+	<div style="height:300px;width:1460px;background-color:white;float:left">
+	<div>
+	<img src="https://cdn2.f-cdn.com/contestentries/281200/12097452/560fa45651df0_thumb900.jpg" alt="oarislogo" style="width:300px;height:180px;margin-left:570px;margin-right:auto;">
+	</div>
+	<p><center style="padding-top:0px;
+    color: #ffb13bde;font-size: 23px;font-style: initial;">TOP DESTINATIONS</center>
+	<p><center style="padding-top:3px;color:gray;font-size:18px">France, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower</center></p></p></div>
+	
+	<div style="height:400px;width:1460px;background-color:white;float:left">
+		<div style="height:400px;width:500px;background-color:white;float:left">
+		<img src="https://media.istockphoto.com/photos/santorini-greece-picturesq-view-of-traditional-cycladic-santorini-on-picture-id929135598?k=6&m=929135598&s=612x612&w=0&h=wyaEPwqnKRnwSJ51fYcY2ecfLK_94_63-2_rBbUY31k=" alt="something" style="width:350px;height:300px;margin-left: 130px;margin-top: 10px;"> <br>
+		<p><a style="margin-left: 250px;font-size:normal;text-decoration: NONE;font-size:17px;color:#2d87ceeb;"href="#"><b>Santorini<b></a></p>
+		</div>
+		
+		
+		<div style="height:400px;width:400px;background-color:white;float:left">
+		<img src=" https://www.greekboston.com/wp-content/uploads/2016/07/Acroplis-Athens.jpg" alt="something" style="width:350px;height:300px;margin-left: 15px;margin-top: 10px;"> <br>
+		<p><a style="margin-left:125px;font-size:normal;text-decoration: NONE;font-size:17px;color:#2d87ceeb;"href="#"><b>Acropolis of Athens<b></a></p></div>
+		
+		
+		
+		<div style="height:400px;width:500px;background-color:white;float:left">
+		
+		<img src="https://www.discovergreece.com/sites/default/files/styles/hd/public/2019-12/4_scenic_view_of_kastoria_town_and_the_famous_orestiada_lake_in_fall_season_against_a_cloudy_sky-1.jpg?itok=4rs6NxOr" alt="something" style="width:350px;height:300px;margin-left: 13px;margin-top: 10px;"> <br>
+		<p><a style="margin-left: 150px;font-size:normal;text-decoration: NONE;font-size:17px;color:#2d87ceeb;"href="#"><b>Kastoria<b></a></p>
+		
+		
+		</div>
+	</div>
+	
+	<div style="height:500px;width:1460px;background-color:white;float:left">
+		<div style="height:500px;width:500px;background-color:white;float:left">			
+		<img src="https://lp-cms-production.imgix.net/features/2017/10/Little-Venice-Mykonos-d44e39320bbe.jpg?auto=format&fit=crop&q=40&sharp=10&vib=20&ixlib=react-8.6.4" alt="something" style="width:350px;height:300px;margin-left: 130px;margin-top: 10px;"> <br>
+		<p><a style="margin-left: 250px;font-size:normal;text-decoration: NONE;font-size:17px;color:#2d87ceeb;"href="#"><b>Mykongs Island<b></a></p>
+		</div>
+
+		<div style="height:500px;width:400px;background-color:white;float:left"><img src="https://s1.wklcdn.com/image_57/1735228/12834356/7903837Master.jpg" alt="something" style="width:350px;height:300px;margin-left: 15px;margin-top: 10px;"> <br>
+		<p><a style="margin-left:153px;font-size:normal;text-decoration: NONE;font-size:17px;color:#2d87ceeb;"href="#"><b>Crete<b></a></p></div>
+		
+		
+		<div class="container" style="height:500px;width:500px;background-color:white;float:left">
+		
+		<img src="https://p1.pxfuel.com/preview/888/613/180/kastoria-lake-nature-greece-landscape-mood.jpg" alt="something" style="width:350px;height:300px;margin-left: 13px;margin-top: 10px;"> 
+		<button class="btn_SK" onclick="window.location.href = 'https://theblondeabroad.com/ultimate-greece-travel-guide/';">See More</button>
+		
+		<br>
+		<p><a style="margin-left: 140px;font-size:normal;text-decoration: NONE;font-size:17px;color:#2d87ceeb;"href="#"><b>South Kastoria<b></a></p></div>
+
+	</div>
+	
+	
+	</div>
+<!---mycon tour..newslettr-->
+
+
+
+<div class="container"style="height:550px;width:1470px;background-color:white;float:left"> 
+	<img src="https://cdn.hipwallpaper.com/i/85/94/ycWenw.jpg"style="height:550px;width:1470px">
+	<div class="content"><p><center Style="font-style: italic;
+    font-size: 25px;font-family: cursive;color: #ff9800e0;	padding-top:90px;">EXCLUSIVE TOUR TO MYCONOS ISLAND</center><br>
+	<p><center Style="font-style:auto;
+    font-size: 19px;font-family:inherit;color:##ffffffba">Mykonos is an expensive island and accommodation <br>is no exception. In July and August, you'll pay around 120 <br>Euro per night for a room, no breakfast, for an average accommodation<br> 10 minute drive from Chora. If you are<br> aiming for a place with sea view and a terrace, you can forget <br>it, since you won't be able to use the <br>terrace at all because of the win.<center></p>
+	<br><button style="margin-top:7px;padding-left: 35px;padding-right: 35px;padding-bottom: 3px;padding-top:5px;background-color:#2441e2;border-radius: 8px;"><a href="#about" style="text-decoration:none;color: white;font-size: 15px;">RESERVE NOW!</a></button></p></div>
+	
+	</div>
+	
+<!---Newsleeter-->
+
+<div style="height:500px;width:1470px;background-color:white;float:left">
+<p><center style="font-size: 30px;
+margin-top:100px;
+    height: 460px;
+    width: 1470px;
+    background-color: white;
+    float: left;
+    font-style: oblique;
+    font-stretch: normal;
+    color: #a7362ef7">Not Ready Yet?Then Join Our Newsletter<center></p>
+<form  class="example"  style="margin:auto;width:800px">
+  <input type="text" placeholder="enter your email address..." name="search2">
+   <button onclick="myFunction()">subscribe</button>
+   <script>
+function myFunction() {
+  alert("your email has been received.thank you!");}
+</script></form>
+<img src="https://i.pinimg.com/originals/38/95/fe/3895fe3a6466d4a30094702bdf1433a8.jpg" style=" margin-top:29px;height:160px; width:150px;">
+
+</div>
+<!--footer-->
+<div style="height:120px;width:1470px;background-color:#080804d6;float:left">
+	<div style="height:140px;width:580px;float:left">
+	<p style="    font-size: 18px;
+    padding-top: 45px;
+    padding-left: 120px;
+    color: white">Copyright©ashab.All Rights Reserved.</p>			
+	</div>
+	<div style="height:140px;width:500px;float:left;padding-left: 45px;
+    padding-top: 30px;">
+	
+	<a href="#" class="fa fa-facebook"></a>
+	<a href="#" class="fa fa-instagram"></a>
+	<a href="#" class="fa fa-snapchat-ghost"></a>
+	<a href="#" class="fa fa-youtube"></a>
+	<a href="#" class="fa fa-twitter"></a>
+	</div>
+	<div class="footer_right" style="height:140px;width:390px;float:left;padding-top:45px">
+	<p>
+	
+	<a href="#">   Privacy & Terms </a>
+	<a href="#" > Legals </a>
+	<a href="#" > FAQs </a>
+	<a href="#" > Contact </a><p>
+	</div></div>
+
+</body>
+
+</html>
