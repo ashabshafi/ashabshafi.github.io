@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+   
+    <style>
+   
+        .foot{
+            background-color: rgb(132, 0, 255);
+            color: white;
+        }
+
+
+    </style>
+   
+    <title>GitHIb finder</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+    <div class="container">
+        <a href="https://github.com/" class="navbar-brand">Github Finder</a>
+    </div>    
+    </nav>
+    <div class="container searchContainer">
+        <div class="search card card-body">
+            <h1>Search Github Users</h1>
+            <p class="lead">Enter a user name to fetch a profile and repos </p>
+        <input type="text" id="searchUser" class="form-control" placeholder="Search by Githib Username...">
+        <!--new my-->
+        
+        <br>
+        <span><button id="searchBtn" class="btn btn-success">Search</button>
+        <button id="clearButton" class="btn btn-danger">Reset</button> </span>
+        
+    </div>
+        <br>
+    <div id="profile"></div>
+    </div>
+    <footer class="mt-5 p-10 text-center foot">
+        GitHub Finder &copy;
+    </footer>
+    <script src="js/githubui.js"></script>
+    <script src="js/githubscript.js"></script>
+    
+</body>
+</html>
